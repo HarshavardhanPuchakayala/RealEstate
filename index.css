@@ -70,10 +70,10 @@ i{
 }
 /*Wave*/
 .WaveSection{
-    padding: 20% 9rem;
+    padding: 20% 4rem;
     background-color: #000;
     height: 60vh;
-    width: 90%;
+    width: 80%;
 }
 .Wave{
     display: flex;
