@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Tenor+Sans&display=swap');
 
 *{
 margin: 0;
@@ -9,13 +9,15 @@ padding: 0;
 header{
     background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./src/hero1.png') no-repeat;
     background-size:cover;
+    background-position: center;
     padding: 4rem;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .fa-bars {
     float: right;
-    margin-right:12%;
+    margin-right:8%;
 }
 nav{
     display: grid;
@@ -42,18 +44,13 @@ ul li{
     display: flex;
     justify-content: center;
 }
-header h1{
+.Heading{
     color: #FFF;
     font-family: 'Tenor Sans';
     font-size: 160px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-}
-
-.Heading{
     margin: 0 auto;
-    padding: 8rem 0;
+    padding: 9.5rem 0;
 }
 header svg{
     display: flex;
@@ -61,9 +58,132 @@ header svg{
     width:5%;
 }
 .icons{
+    padding: 9rem 0 2rem 8rem;
     display: flex;
     gap: 2rem;
 }
 i{
     color: #ffffff;
+}
+/*Wave*/
+.WaveSection{
+    padding: 20% 9rem;
+    background-color: #000;
+    height: 60vh;
+    width: 100%;
+}
+.Wave{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+.Wave-Background{
+    position: absolute;
+    z-index: 1;
+}
+.Wave-Background img{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.4;
+}
+.WaveUpperText{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    gap: 52%;
+    margin-left:1rem;
+}
+.WuT1{
+    margin-left: 6rem;
+}
+.WuT2{
+    margin-top: 2rem;
+}
+.WaveHeading{
+    color: #ffffff;
+    font-family: 'Tenor Sans';
+    font-size: 6rem;
+    font-weight: 400;
+    display: grid;
+    grid-template-areas: 'Top .'
+                          '. Bottom';
+    
+    margin: 0 auto 0 37%;
+}
+.Heading-1{
+    grid-area: Top;
+}
+.Heading-2{
+    grid-area: Bottom;
+}
+.WaveLowerTest{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;   
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
+    margin: 7rem 0 0 7rem;
+}
+
+
+
+/*new homes*/
+.newHomesSection{
+    width:80%;
+    margin: 8rem auto;
+    position: relative;
+    
+}
+.newHomesHeading{
+    color: #272727;
+    font-family: 'Tenor Sans';
+    font-size: 120px;
+    font-weight: 400;
+    position: absolute;
+    left: 25%;
+    top:40%;
+    z-index: 1;
+}
+.newHomes{
+    position: relative;
+    display:grid;
+    grid-template: 1fr/repeat(2,1fr);
+    height: 80vh;
+    gap:20%;
+}
+.firstnewHomeFirstSection{
+    display: flex;
+    flex-direction: column;
+    gap:90%;
+    padding: 10% 0 0 10%;
+}
+.newHomesIcons{
+    display: flex;
+    gap:1rem;
+}
+.newHomesIcons i{
+    color: #ede6e6;
+}
+.newHomesIcons p{
+    color: #272727;
+    font-family: 'Tenor Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newHomesVideo{
+    width: 100%;
+}
+.video{
+    display: flex;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
 }
