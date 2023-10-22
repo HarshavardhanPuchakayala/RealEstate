@@ -5,7 +5,12 @@ margin: 0;
 padding: 0;
 
 }
-
+li:hover,i:hover{
+    transform: translateY(-6px);
+}
+.fa-bars:hover{
+    transform: translateY(0);
+}
 .header{
     background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./src/hero1.png') no-repeat;
     background-size:cover;
@@ -18,6 +23,7 @@ padding: 0;
 .fa-bars {
     float: right;
     margin-right:8%;
+    cursor: pointer;
 }
 nav{
     display: grid;
@@ -33,6 +39,9 @@ ul{
     gap:3rem;
 
 }
+#nav-items{
+    display: none;
+}
 ul li{
     color: #FFF;
     font-family: 'Tenor Sans';
@@ -40,7 +49,13 @@ ul li{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
 }
+i{
+    cursor: pointer;
+}
+
+
 .second-nav{
     display: flex;
     justify-content: center;
@@ -263,17 +278,74 @@ i{
     height: 100vh;
 }
 /*Rentals*/
-.Rentals{
+.RentalsSection{
     width: 80%;
     margin: 4rem auto;
-    padding: 1rem 2 rem;
-    background-color: #000;
 }
-.Rentals div{
-    background-color: aqua;
-    height: 100vh;
+.Rentals{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
 }
-
+.RentalsText{
+    margin-top: 1.5rem;
+}
+.Rentalslogo{
+    grid-column: 1/-1;
+    margin-bottom: 1.5rem;
+    color: #272727;
+    font-family: 'Tenor Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+.RentalsHeading{
+    grid-column: 1/-1;
+    color: #272727;
+    font-family: 'Tenor Sans';
+    font-size: 1.8rem;
+    font-weight: 100;
+    line-height: 50px;
+    margin: 0 auto 6% 20%;
+}
+.RentalsImg1{
+    grid-column: 1/2;
+    display: flex;
+    gap: 4rem;
+}
+.RentalsImg2{
+    grid-column: 2/-1;
+    margin:8rem 0 0 6rem;
+}
+.RentalsImg2 img{
+    width: 80%;
+}
+.RentalsImg3{
+    grid-column: 1/-1;
+    margin: 6rem 0 6rem 7rem;
+}
+.RentalsImg3 img{
+    width: 80%;
+}
+.RentalsImg4{
+    margin: 6rem 0 4rem 0;
+}
+.RentalsImg4 img{
+    width: 80%;
+}
+.RentalsImg5{
+    margin-left: 5rem;
+}
+.RentalsText{
+    color: #272727;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 25px;
+}
+.RentalsIcons{
+    grid-column: 1/2;
+}
 /*Homes*/
 .Homes{
     display: grid;
