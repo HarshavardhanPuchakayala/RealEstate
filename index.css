@@ -5,15 +5,12 @@ margin: 0;
 padding: 0;
 
 }
-body{
-    width: 100%;
-    margin: 0 auto;
-}
-header{
+
+.header{
     background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./src/hero1.png') no-repeat;
     background-size:cover;
-    background-position: center;
-    padding: 4rem;
+    background-image: 90%;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -25,6 +22,7 @@ header{
 nav{
     display: grid;
     gap: 8rem;
+    margin: 0 8rem;
 }
 ul{
     list-style-type: none;
@@ -69,6 +67,7 @@ i{
     color: #ffffff;
 }
 /*Wave*/
+
 .WaveSection{
     padding: 20% 0;/*error*/
     background-color: #000;
@@ -90,7 +89,7 @@ i{
     display: flex;
     justify-content: center;
     width: 80%;
-    margin: 0 auto;
+    margin:0 auto 0 25%;
     opacity: 0.4;
 }
 .WaveUpperText{
@@ -100,13 +99,15 @@ i{
     font-weight: 300;
     display: flex;
     gap: 52%;
-    margin-left:1rem;
+    width: 65%;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .WuT1{
-    margin-left: 6rem;
+    margin:0 0 0 1rem;
 }
 .WuT2{
-    margin-top: 2rem;
+    margin: 4rem 4rem 0 0;
 }
 .WaveHeading{
     color: #ffffff;
@@ -117,7 +118,7 @@ i{
     grid-template-areas: 'Top .'
                           '. Bottom';
     
-    margin: 0 auto 0 37%;
+    margin:  0 39% 0 auto;
 }
 .Heading-1{
     grid-area: Top;
@@ -133,7 +134,7 @@ i{
     display: flex;
     width: 33%;
     justify-content: space-between;
-    margin: 7rem 0 0 7rem;
+    margin: 7rem auto 0 19%;
 }
 
 
