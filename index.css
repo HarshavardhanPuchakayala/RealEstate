@@ -780,7 +780,9 @@ and (max-device-width : 480px) {
 .NewsSecond h6{
     font-size: 1rem;
 }
-
+.NewsSecondContant{
+    width: 100%;
+}
 .NewsSecondContantHeading1{
     font-size: 0.8rem;
 }
