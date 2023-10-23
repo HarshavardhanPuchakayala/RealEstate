@@ -843,35 +843,76 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-/* Styles */
+  
+    /*Wave*/
+
+.WaveSection{
+    width: 150%;
+    height: 22vh;
+}
+.Wave{
+    width: 120%;
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
+.Wave-Background img{
+    width: 90%;
+}
+.WaveUpperText{
+    width: 90%;
 }
 
-/* Tablets, iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
+/*new homes*/
+.newHomesHeading{
+    font-size: 4rem;
 }
 
-/* Tablets, iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
+
+
+/*Homes*/
+.hero-4 img{
+    height: 80vh;
 }
 
-/* Tablets, iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
+/*about*/
+.NewsSecondSection{
+    margin-top: 0rem;
 }
+.NewsSecondSection .NewsSecondContantHeading1{
+    margin-top: 0.5rem;
+}
+.NewsSecondContant p{
+    font-size: 0.7rem;
+}
+
+/*contact*/
+.contacts{
+    width: 140%;
+    padding: 4rem 0 0 0;
+    margin: 0 1rem;
+}
+.contactsBorder{
+    border: 1rem solid #000;
+}
+.address{
+    margin: 500% 0 auto 0;
+    font-size: 0.4rem;
+    padding: 1rem;
+    line-height: 1rem;
+}
+.contactsHeading{
+    font-size: 3rem;
+}
+
+
+.contactsForm{
+    padding-left:4rem ;
+}
+.contactsFormIcons{
+    margin-top: 8rem;
+    color: rgb(237, 243, 243);
+    opacity: 0.5;
+    display: none;
+}
+}
+
 
